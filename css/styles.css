@@ -1,0 +1,146 @@
+@font-face{
+    font-family: Pangolin-Regular;
+    src: url('/fonts/Pangolin-Regular.ttf');
+}
+
+
+/*header style*/    
+.header{
+ 
+    background-color: ##e6e6e6;      
+}
+
+#logo{
+    width: 100px;
+    height: 160px;
+    padding-bottom: 30px;
+}
+
+body{
+    background-image: url('../img/rickback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.bodyTwo{
+    background-image: url('../img/rickBacktwo.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -15px; 
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+/*content style*/
+
+.mainTittle{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 85px;
+    background-color: rgba(132,207,52, 1);
+    color: white;
+    letter-spacing: 10px;
+    font-family: 'Pangolin', cursive;  
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 75%;
+    font-family: 'Pangolin', cursive ;
+    word-spacing: 3px;
+    line-height: 25px;
+    
+}
+
+.whiteBack{
+    background-color: rgba(255,255, 255, 0.3);
+}
+
+h2{
+    background-color: rgba(132,207,52,1);
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: white;
+    letter-spacing: 10px;
+    line-height: 25px;
+
+}
+
+.boldItalic-span{
+    font-weight: bold;
+    font-style: italic;
+    color: black
+    
+}
+
+.years{
+    font-weight: bold;
+}
+
+/*footer style*/
+
+footer {
+    background-color:rgba(132,207,52, 1);
+    text-align: center;
+    margin-top: 20rem;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+a{
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.pageTwo{
+    background-color: rgba(255,255, 255, 0.3);
+    position: relative;
+    margin-right: 400px;
+    margin-left: -50px;
+   
+}
+
+.button{
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 80px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 176, 200, 1) ;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.backHome{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 340px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 176, 200, 1) ;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.backHome:hover{
+    color: black;
+    background-color: white;
+
+}
